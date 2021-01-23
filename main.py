@@ -3,7 +3,6 @@ from PIL import Image
 import PIL
 import pyautogui
 import time
-import string
 
 import discord
 from discord.ext import commands
