@@ -222,7 +222,7 @@ async def on_ready():
     # commands
  
 @client.command() # everyone
-async def get(ctx, made : int):
+async def need(ctx, made : int):
     log_random_ip = client.get_channel()
     get()
     # await log_random_ip.send(f"{made} ip will be sent to <#802286081290403842>")
